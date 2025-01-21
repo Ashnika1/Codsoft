@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1>Welcome to My Landing Page</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="hero" class="hero-section">
+            <h2>Your Journey Begins Here</h2>
+            <p style="color: black;">Discover amazing content and connect with us.</p>
+        </section>
+        <section id="about" class="content-section">
+            <h3>About Us</h3>
+            <p>We are dedicated to providing the best service possible.</p>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5xJibZR1Y4UA4YSEr0dOgcq0khDjz8sHYLQ&s"alt="About Us">
+        </section>
+        <section id="services" class="content-section">
+            <h3>Our Services</h3>
+            <p>We offer a wide range of services to meet your needs.</p>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHfp2-v0_mvOp5W9vUBpNKVMH4A-3M7oRidg&s" alt="Our Services">
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 My Landing Page. All rights reserved.</p>
+    </footer>
+</body>
+</html>
